@@ -41,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <a
                       href="https://www.linkedin.com/in/tristan-kempes-ares-685270333"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="hover:underline"
                     >
                       LinkedIn
@@ -51,6 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <a
                       href="https://github.com/tristank-fullstack"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="hover:underline"
                     >
                       GitHub

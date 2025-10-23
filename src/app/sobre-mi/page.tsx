@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 export default function SobreMi() {
   return (
-    <section className="relative min-h-[80vh] overflow-hidden py-12">
+    <section className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] overflow-hidden py-12">
       <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1e3a8a] to-[#0f172a]" />
 
       <div className="relative mx-auto max-w-6xl px-6 text-center">
@@ -24,10 +26,13 @@ export default function SobreMi() {
         </p>
 
         <div className="mt-8 sm:mt-10 flex justify-center">
-          <img
+          <Image
             src="/foto.png"
             alt="Sobre mí - Tristan Kempes"
+            width={448}
+            height={448}
             className="rounded-lg shadow-lg w-48 sm:w-64 md:w-80 lg:w-[28rem] max-w-full h-auto"
+            priority
           />
         </div>
       </div>

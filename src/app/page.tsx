@@ -1,5 +1,5 @@
 import FadeIn from "@/components/FadeIn";
-import CTAButton from "@/components/CTAButton";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,18 +24,18 @@ export default function Home() {
 
         <FadeIn delay={300}>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
-            <a
+            <Link
               href="/proyectos"
-              className="px-6 py-3 rounded-full bg-[#3b82f6] text-white font-medium hover:bg-[#2563eb] transition text-sm sm:text-base"
+              className="px-6 py-3 rounded-full bg-[#3b82f6] text-white font-medium hover:bg-[#2563eb] transition text-sm sm:text-base text-center"
             >
               Ver proyectos
-            </a>
-            <a
+            </Link>
+            <Link
               href="/contacto"
-              className="px-6 py-3 rounded-full border border-[#3b82f6] text-[#3b82f6] font-medium hover:bg-[#3b82f6] hover:text-white transition text-sm sm:text-base"
+              className="px-6 py-3 rounded-full border border-[#3b82f6] text-[#3b82f6] font-medium hover:bg-[#3b82f6] hover:text-white transition text-sm sm:text-base text-center"
             >
               Contacto
-            </a>
+            </Link>
           </div>
         </FadeIn>
       </div>

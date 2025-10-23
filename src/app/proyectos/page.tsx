@@ -22,6 +22,7 @@ export default function Proyectos() {
               <a
                 href="https://github.com/tristank-fullstack/HearMe"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-2 rounded-full bg-[#3b82f6] text-white font-medium hover:bg-[#2563eb] transition text-sm sm:text-base text-center"
               >
                 Ver App en GitHub
@@ -29,6 +30,7 @@ export default function Proyectos() {
               <a
                 href="https://github.com/tristank-fullstack/HearMe-API"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-2 rounded-full border border-[#3b82f6] text-[#3b82f6] font-medium hover:bg-[#3b82f6] hover:text-white transition text-sm sm:text-base text-center"
               >
                 Ver API en GitHub
@@ -48,6 +50,7 @@ export default function Proyectos() {
             <a
               href="https://github.com/tristank-fullstack"
               target="_blank"
+              rel="noopener noreferrer"
               className="px-4 py-2 rounded-full border border-[#3b82f6] text-[#3b82f6] font-medium hover:bg-[#3b82f6] hover:text-white transition text-sm sm:text-base text-center"
             >
               Mi GitHub

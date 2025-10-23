@@ -23,6 +23,7 @@ export default function Contacto() {
           <a
             href="https://www.linkedin.com/in/tristan-kempes-ares-685270333"
             target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#1e293b] rounded-xl shadow-lg p-4 sm:p-6 flex flex-col items-center justify-center hover:bg-[#3b82f6]/20 transition"
           >
             <FaLinkedin className="text-4xl text-blue-500 mb-3" />
@@ -36,6 +37,7 @@ export default function Contacto() {
           <a
             href="https://github.com/tristank-fullstack"
             target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#1e293b] rounded-xl shadow-lg p-4 sm:p-6 flex flex-col items-center justify-center hover:bg-[#3b82f6]/20 transition"
           >
             <FaGithub className="text-4xl text-white mb-3" />
