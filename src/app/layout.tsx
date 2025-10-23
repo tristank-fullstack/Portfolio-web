@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <main className="overflow-y-auto">{children}</main>
 
-          <footer className="border-t border-[#1e293b] bg-[#0f172a] z-50">
+          <footer className="border-t border-[#1e293b] bg-[#0f172a] z-50 min-h-[100px] sm:min-h-[120px]">
             <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8 grid gap-4 sm:grid-cols-3 sm:gap-6 text-sm">
 
 
