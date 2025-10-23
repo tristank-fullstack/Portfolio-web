@@ -22,7 +22,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="overflow-y-auto">{children}</main>
 
           <footer className="border-t border-[#1e293b] bg-[#0f172a] z-50">
-            <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6 sm:py-6 grid gap-4 sm:grid-cols-3 sm:gap-6 text-sm">
+            <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8 grid gap-4 sm:grid-cols-3 sm:gap-6 text-sm">
+
 
               {/* Bloque 1: Nombre y descripción → solo visible en escritorio */}
               <div className="hidden sm:block">
