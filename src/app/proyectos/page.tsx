@@ -7,6 +7,27 @@ export default function Proyectos() {
         <h2 className="section-title text-center">Proyectos</h2>
 
         <div className="grid gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
+
+          {/* Proyecto Portfolio Web */}
+          <div className="bg-[#1e293b] rounded-xl shadow-lg p-4 sm:p-6 flex flex-col justify-between h-full">
+            <div>
+              <h3 className="text-2xl font-bold text-[#3b82f6] mb-3 sm:mb-4">Portfolio Web</h3>
+              <p className="text-sm sm:text-base md:text-lg text-[#cbd5e1] mb-4 sm:mb-6 text-left">
+                Mi portfolio personal desarrollado con Next.js y Tailwind CSS. Incluye secciones de habilidades,
+                proyectos destacados y contacto. Diseño responsive y desplegado en Vercel.
+              </p>
+            </div>
+            <div className="flex flex-col gap-3">
+              <a
+                href="https://github.com/tristank-fullstack/Portfolio-web"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full bg-[#3b82f6] text-white font-medium hover:bg-[#2563eb] transition text-sm sm:text-base text-center"
+              >
+                Ver código en GitHub
+              </a>
+            </div>
+          </div>
           {/* Proyecto HearMe */}
           <div className="bg-[#1e293b] rounded-xl shadow-lg p-4 sm:p-6 flex flex-col justify-between h-full">
             <div>
@@ -37,6 +58,7 @@ export default function Proyectos() {
               </a>
             </div>
           </div>
+
 
           {/* Placeholder futuros proyectos */}
           <div className="bg-[#111827] rounded-xl shadow-lg p-4 sm:p-6 flex flex-col justify-between border-2 border-dashed border-[#3b82f6] h-full">
