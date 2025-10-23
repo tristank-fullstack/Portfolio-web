@@ -2,7 +2,7 @@
 
 Este es mi portfolio personal como **Desarrollador Android & Fullstack**, donde muestro mis habilidades, proyectos y formas de contacto.
 
-🔗 **Demo en vivo**: [Ver portfolio en Vercel](portfolio-web-rho-rust.vercel.app)
+🔗 **Demo en vivo**: [Ver portfolio en Vercel]([portfolio-web-rho-rust.vercel.app](https://portfolio-web-rho-rust.vercel.app/))
 
 ---
 
