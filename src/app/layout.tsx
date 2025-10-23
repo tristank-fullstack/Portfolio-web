@@ -2,7 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import Header from "@/components/Header"; 
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,19 +16,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className={`${inter.className} bg-[#0f172a] text-[#f1f5f9] text-justify`}>
         <div className="h-screen grid grid-rows-[auto,1fr,auto]">
-          
+
           <Header />
 
           <main className="overflow-y-auto">{children}</main>
 
           <footer className="border-t border-[#1e293b] bg-[#0f172a] z-50">
-            <div className="mx-auto max-w-6xl px-6 py-6 grid sm:grid-cols-3 gap-6 text-sm">
-              <div>
+            <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6 sm:py-6 grid gap-4 sm:grid-cols-3 sm:gap-6 text-sm">
+
+              {/* Bloque 1: Nombre y descripción → solo visible en escritorio */}
+              <div className="hidden sm:block">
                 <div className="font-bold text-white">Tristan Kempes</div>
                 <p className="mt-2 text-[#94a3b8]">
                   Desarrollador de apps con Java, Kotlin, Spring Boot, Firebase.
                 </p>
               </div>
+
+              {/* Bloque 2: Contacto → visible en todos los tamaños */}
               <div>
                 <div className="font-bold text-white">Contacto</div>
                 <ul className="mt-2 space-y-2">
@@ -56,11 +60,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       className="hover:underline"
                     >
                       GitHub
-                    </a>  
+                    </a>
                   </li>
                 </ul>
               </div>
-              <div>
+
+              {/* Bloque 3: Tecnologías → solo visible en escritorio */}
+              <div className="hidden sm:block">
                 <div className="font-bold text-white">Tecnologías</div>
                 <p className="mt-2 text-[#94a3b8]">
                   Java, Spring Boot, Kotlin, Android, Firebase, React, Next.js.
@@ -68,6 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             </div>
           </footer>
+
         </div>
       </body>
     </html>
