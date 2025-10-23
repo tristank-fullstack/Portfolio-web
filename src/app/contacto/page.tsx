@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Contacto() {
   return (
-    <section className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] overflow-hidden py-12">
+    <section className="relative min-h-[80vh] sm:min-h-[80vh] md:min-h-[80vh] overflow-hidden py-12">
       <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1e3a8a] to-[#0f172a]" />
 
       <div className="relative mx-auto max-w-4xl px-6 text-center">

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center overflow-hidden py-20">
+    <section className="relative min-h-[80vh] sm:min-h-[80vh] md:min-h-[80vh] flex items-center justify-center overflow-hidden py-20">
       <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1e3a8a] to-[#0f172a]" />
 
       <div className="relative text-center px-6 max-w-3xl">
